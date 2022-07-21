@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './TransactionHistory.css';
 export const Transaction = ({ type, amount, currency }) => {
   return (
     <tbody>

@@ -1,0 +1,28 @@
+.friend-item {
+  display: flex;
+  justify-content: baseline;
+  max-width: 300px;
+  background-color: rgb(240, 233, 145);
+  border-radius: 6px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border: 2px solid #757575;
+
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.friend-item:hover {
+  background-color: white;
+}
+
+.status {
+  margin-right: 30px;
+}
+
+.frient-avatar {
+  margin-right: 30px;
+}

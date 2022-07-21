@@ -1,0 +1,31 @@
+.transaction-history {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  max-width: 616px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(240, 233, 145);
+  margin-bottom: 30px;
+}
+
+thead {
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: #4e4e4e;
+}
+
+td,
+th {
+  min-width: 200px;
+  min-height: auto;
+
+  border: 1px solid #757575;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  color: #4e4e4e;
+}

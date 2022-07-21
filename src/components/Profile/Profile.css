@@ -1,0 +1,88 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 30px;
+}
+
+.avatar {
+  display: block;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 25%;
+  border: 2px solid #757575;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.name,
+.tag,
+.location {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+.name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  color: #4e4e4e;
+  margin-bottom: 50px;
+}
+.tag,
+.location {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: #757575;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.stats li {
+  margin-right: 50px;
+}
+
+li:last-child {
+  margin-right: 0px;
+}
+
+label,
+.quantity {
+  display: block;
+}
+.quantity {
+  color: #4e4e4e;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+}
